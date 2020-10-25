@@ -4,7 +4,7 @@
 - [x] Full Synergy Team
 - [x] Wizard Party
 
-## Full Synergy Team
+## 1. Full Synergy Team
 > The problem is simple..We need to get team with maximum length that each member in the team (directly connected) with all his team's members
 
 1. Generate all possible subset (team possible)
@@ -22,3 +22,8 @@
 
 - to generate all the subsets (possible team) efficently, you can use power set method 
 - I have already explained powerset method in this [video](https://youtu.be/DvBjwKGTSDE), [GeeksForGeeks tutorial](https://www.geeksforgeeks.org/power-set/)
+
+### FOR NERDs
+
+- This problem is called *Max Clique* problem which is defined as complete subgraph with maximum length
+- This problem has an efficient way of solving it, I have already implemented before [here](https://github.com/AbdallahHemdan/cp__training/blob/master/Graphs__utilities/Max%20Clique.cpp)
