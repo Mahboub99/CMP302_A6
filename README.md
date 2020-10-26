@@ -60,4 +60,8 @@ do{
 }while(next_permutaion(arr.begin(), arr.end());
 ```
 #### Study Resources
-[I'm an inline-style link](https://www.google.com)
+
+- [Recursion I](https://leetcode.com/explore/featured/card/recursion-i/)
+
+- [Recursion II](https://leetcode.com/explore/learn/card/recursion-ii/)
+
