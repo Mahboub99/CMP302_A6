@@ -61,6 +61,10 @@ do{
 ```
 #### Study Resources
 
-[https://leetcode.com/explore/featured/card/recursion-i/](Recsursion I)
-[https://leetcode.com/explore/learn/card/recursion-ii/](Recursion II)
+<li>
+[Recursion I](https://leetcode.com/explore/featured/card/recursion-i/)
+ </li>
+ <li>
+[Recursion II](https://leetcode.com/explore/learn/card/recursion-ii/)
+ </li>
 
