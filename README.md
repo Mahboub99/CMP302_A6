@@ -62,9 +62,7 @@ do{
 #### Study Resources
 
 <li>
-[Recursion I](https://leetcode.com/explore/featured/card/recursion-i/)
- </li>
- <li>
-[Recursion II](https://leetcode.com/explore/learn/card/recursion-ii/)
- </li>
+ [Recursion I](https://leetcode.com/explore/featured/card/recursion-i/)
+</li>
+
 
