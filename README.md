@@ -60,15 +60,3 @@ do{
 }while(next_permutaion(arr.begin(), arr.end());
 ```
 #### Study Resources
-<ul>
-<li>
- < a href = "https://leetcode.com/explore/featured/card/recursion-i/" >Recursion I</a>
-</li>
- 
-<li>
- < a href = "https://leetcode.com/explore/learn/card/recursion-ii/" >Recursion II</a>
-</li> 
- 
-</ul>
-
-
