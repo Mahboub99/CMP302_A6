@@ -60,7 +60,7 @@ do{
 }while(next_permutaion(arr.begin(), arr.end());
 ```
 #### Study Resources
-<ul>
- <li>[https://leetcode.com/explore/featured/card/recursion-i/](Recsursion I) </li>
- <li>[https://leetcode.com/explore/learn/card/recursion-ii/](Recursion II) </li>
- </ul>
+
+[https://leetcode.com/explore/featured/card/recursion-i/](Recsursion I)
+[https://leetcode.com/explore/learn/card/recursion-ii/](Recursion II)
+
