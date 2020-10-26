@@ -62,7 +62,9 @@ do{
 #### Study Resources
 
 <li>
- [Recursion I](https://leetcode.com/explore/featured/card/recursion-i/)
+ < a href = "https://leetcode.com/explore/featured/card/recursion-i/" >Recursion I</a>
+ < a href = "https://leetcode.com/explore/learn/card/recursion-ii/" >Recursion II</a>
+ 
 </li>
 
 
