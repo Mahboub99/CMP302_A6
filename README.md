@@ -60,3 +60,4 @@ do{
 }while(next_permutaion(arr.begin(), arr.end());
 ```
 #### Study Resources
+[I'm an inline-style link](https://www.google.com)
