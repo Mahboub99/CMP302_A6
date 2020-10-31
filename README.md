@@ -1,4 +1,4 @@
-<img width="1500" alt="Algorithms" src="https://user-images.githubusercontent.com/43186742/97775638-04bedd00-1b6b-11eb-9761-258e2dbdd62c.png">
+<img width="1519" alt="alog" src="https://user-images.githubusercontent.com/43186742/97775896-f7a2ed80-1b6c-11eb-9396-4753cb5ad678.png">
 
 
 solutions for contests and labs for CMP302_A6 course (algorithms course) for Cairo University Faculty of Engineering: where you can find the solutions after the contest is done
