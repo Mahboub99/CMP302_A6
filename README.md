@@ -1,6 +1,4 @@
-<div align="center">
-  <img width="700" alt="Logo" src="https://user-images.githubusercontent.com/43186742/97775607-adb90800-1b6a-11eb-8965-153c8bc21782.png">
-</div>
+<img width="1500" alt="Algorithms" src="https://user-images.githubusercontent.com/43186742/97775638-04bedd00-1b6b-11eb-9761-258e2dbdd62c.png">
 
 
 solutions for contests and labs for CMP302_A6 course (algorithms course) for Cairo University Faculty of Engineering: where you can find the solutions after the contest is done
