@@ -1,4 +1,8 @@
-# CMP302_A6
+<div align="center">
+  <img width="700" alt="Logo" src="https://user-images.githubusercontent.com/43186742/97775607-adb90800-1b6a-11eb-8965-153c8bc21782.png">
+</div>
+
+
 solutions for contests and labs for CMP302_A6 course (algorithms course) for Cairo University Faculty of Engineering: where you can find the solutions after the contest is done
 
 > you should add your solutions under a folder with your name 
