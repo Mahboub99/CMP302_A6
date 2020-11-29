@@ -15,7 +15,7 @@ bool take_path(int house, int nHouses, set<int> crossed, const vector<set<int>> 
   if (crossed.size() == nHouses) {
     return linked[house].find(0) != linked[house].end();
   }
-  
+
   bool answer = false;
   for (auto& candidateHouse: linked[house]) {
     if (crossed.find(candidateHouse) != crossed.end()) continue; // Skip if crossed
@@ -29,7 +29,6 @@ bool take_path(int house, int nHouses, set<int> crossed, const vector<set<int>> 
 
 
 int main() {
-  /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
   int N; cin >> N;
   int E; cin >> E;
   // Each house has a set of houses which are connected to it
