@@ -35,16 +35,7 @@ int main()
         int x = arr[i];
         before[arr[i]]++;
 
-        if (m == 2)
-        {
-            if (after.count(x + d))
-                ans += after[x + d];
-        }
-        else
-        {
-            if (after.count(x + d) && before.count(x - d))
-                ans += before[x - d] * after[x + d];
-        }
+        ans += before[x - d] * (m == 2 ? 1 : after[x + d]);
 
         after[arr[i]]--;
     }
