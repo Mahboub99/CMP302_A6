@@ -27,20 +27,17 @@ int main()
     vector<int> shots;
     for (int i = 0, x; i < m; i++)
     {
-        cin >> x, shots.push_back(x);
-        if (!shots.back())
-            shots.pop_back();
+        cin >> x;
+        if(x) shots.push_back(x); // don't push zeros
     }
 
-    vector<pair<int, int>> dp(MAXN, {1e9, 1e9});
-
-    int miniE = *min_element(shots.begin(), shots.end());
-    for (int i = 0; i < miniE; i++)
+    vector<pair<int, int>> dp(MAXN);
+    for (int i = 0; i < MAXN; i++)
         dp[i] = {i, 0};
 
     for (int health = 0; health < MAXN; health++)
         for (auto shot : shots)
-            if (shot && health - shot >= 0)
+            if (health - shot >= 0) // mini -> first, moves -> second
                 dp[health] = min(dp[health], {dp[health - shot].mini, dp[health - shot].moves + 1});
 
     for (auto i : monsters)
