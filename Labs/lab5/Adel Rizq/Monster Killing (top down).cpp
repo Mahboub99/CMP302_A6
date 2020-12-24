@@ -17,9 +17,8 @@ pair<int, int> dp[MAXN];
 pair<int, int> solve(int health)
 {
     auto &ret = dp[health];
-    if (~ret.first)
-        return ret;
-    ret = {1e9, 1e9};
+    if (~ret.first) return ret;
+    ret = {health, 0};
 
     for (int i = 0; i < m; i++)
     {
@@ -29,9 +28,6 @@ pair<int, int> solve(int health)
             ret = min(ret, {temp.first, temp.second + 1});
         }
     }
-
-    if (ret.first == 1e9)
-        ret = {health, 0};
 
     return ret;
 }
